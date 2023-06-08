@@ -25,7 +25,7 @@ function Navbar() {
             <Link href='/'>
               <li className='ml-10 uppercase hover:scale-110 hover:border-b text-blue-800 ease-in duration-300'>Home</li>
             </Link>
-            <Link href='/about'>
+            <Link href='/'>
               <li className='ml-10 uppercase hover:scale-110 hover:border-b text-blue-800 ease-in duration-300'>About</li>
             </Link>
             <Link href='/Skills'>
