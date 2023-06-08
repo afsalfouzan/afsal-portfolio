@@ -46,7 +46,7 @@ function Contact() {
                 </div>
                 <input onChange={(e) => setSubject(e.target.value)} name='subject' className='border shadow-lg p-3 my-3 w-full rounded' type="text" placeholder='Subject' />
                 <textarea onChange={(e) => setMessage(e.target.value)} className='border shadow-lg p-3 w-full rounded' name="message" id="" cols="30" rows="10" placeholder='Message' />
-                <button type='submit' className='border shadow-lg w-full mt-3 p-3 rounded'><p className='font-bold'>Submit</p></button>
+                <button type='submit' className='border shadow-lg w-full mt-3 p-3 rounded bg-blue-500 hover:bg-blue-600'><p className='font-bold'>Submit</p></button>
             </form>
         </div>
     )
