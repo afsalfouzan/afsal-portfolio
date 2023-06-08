@@ -17,7 +17,7 @@ function Navbar() {
 
 
   return (
-    <div className='fixed w-full h-20 shadow-xl z-[100] bg-slate-50'>
+    <div className='fixed w-full h-20 shadow-xl z-[100] bg-slate-100'>
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
         <Image src={navLogo} alt='/' width='87' height='50' />
         <div className='fixed right-0 px-4'>
@@ -25,16 +25,16 @@ function Navbar() {
             <Link href='/'>
               <li className='ml-10 uppercase hover:scale-110 hover:border-b text-blue-800 ease-in duration-300'>Home</li>
             </Link>
-            <Link href='/'>
+            <Link href='/#about'>
               <li className='ml-10 uppercase hover:scale-110 hover:border-b text-blue-800 ease-in duration-300'>About</li>
             </Link>
-            <Link href='/Skills'>
+            <Link href='/#skills'>
               <li className='ml-10 uppercase hover:scale-110 hover:border-b  text-blue-800 ease-in duration-300'>Skills</li>
             </Link>
-            <Link href='/Projects'>
+            <Link href='/#projects'>
               <li className='ml-10 uppercase hover:scale-110 hover:border-b text-blue-800 ease-in duration-300'>Projects</li>
             </Link>
-            <Link href='/'>
+            <Link href='/#contact'>
               <li className='ml-10 uppercase hover:scale-110 hover:border-b text-blue-800 ease-in duration-300'>Contacts</li>
             </Link>
           </ul>
@@ -58,10 +58,10 @@ function Navbar() {
               </div>
               <div className='py-4 flex flex-col'>
                 <ul className='uppercase'>
-                  <Link href='/about'>
+                  <Link href='/'>
                     <li className='py-2 text-blue-900 hover:scale-90 text-sm ease-in duration-300 uppercase'>home</li>
                   </Link>
-                  <Link href='/'>
+                  <Link href='/#about'>
                     <li className='py-2 text-blue-900 hover:scale-90 text-sm ease-in duration-300 uppercase'>About</li>
                   </Link>
                   <Link href='/'>
