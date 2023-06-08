@@ -6,7 +6,7 @@ const resume = () => {
   return (
     <>
       <Head>
-        <title>Clint | Resume</title>
+        <title>Afsal | Resume</title>
         <meta
           name='description'
           content='I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences.'
@@ -17,20 +17,20 @@ const resume = () => {
       <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
         <h2 className='text-center'>Resume</h2>
         <div className='bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center'>
-          <h2 className='text-center'>Clint Briley</h2>
+          <h2 className='text-center'>Afsal Fouzan</h2>
           <div className='flex'>
-            <a
-              href='https://www.linkedin.com/in/clint-briley-50056920a/'
-              target='_blank'
-              rel='noreferrer'
-            >
+          <a
+                href='https://www.linkedin.com/in/afsal-fouzan-609236165/'
+                target='_blank'
+                rel='noreferrer'
+              >
               <FaLinkedinIn size={20} style={{ marginRight: '1rem' }} />
             </a>
             <a
-              href='https://github.com/fireclint'
-              target='_blank'
-              rel='noreferrer'
-            >
+                href='https://github.com/afsalfouzan'
+                target='_blank'
+                rel='noreferrer'
+              >
               <FaGithub size={20} style={{ marginRight: '1rem' }} />
             </a>
           </div>
@@ -38,7 +38,7 @@ const resume = () => {
         <div className='text-center py-4 text-xl font-bold uppercase tracking-wider'>
           <div className='hidden sm:block'>
             <p>
-              Proven Leadership <span className='px-1'>|</span> Web Development{' '}
+              Proven Leadership <span className='px-1'>|</span> Full Stack Development{' '}
               <span className='px-1'>|</span> Complex Problem Solving
             </p>
           </div>
@@ -49,15 +49,7 @@ const resume = () => {
           </div>
         </div>
         <p>
-          Analytical, innovative, and motivated web development professional
-          with experience in customer service, team leadership, and
-          organizational effectiveness in fast-paced and challenging
-          environments. Adept at developing strategies and driving streamlined
-          operations. Diverse analytical skills, team collaboration, and
-          relationship building. Consummate professional, and motivated leader,
-          with solid interpersonal abilities and complex problem-solving skills.
-          Effective and proven track record of critical thinking, idea
-          generation, and optimizing efficiencies.
+           As a modern full-stack developer, I am passionate about creating robust and efficient web applications. With a solid foundation in both front-end and back-end technologies, I thrive in building seamless user experiences and implementing scalable solutions.  I am experienced in working with languages such as JavaScript, HTML, CSS, and frameworks like React and Node.js. Collaborating in cross-functional teams, I leverage my strong problem-solving skills and attention to detail to deliver high-quality code. Continuously learning and adapting to new technologies, I stay up-to-date with industry trends and best practices. With a focus on clean code and optimal performance, I strive to contribute to innovative and impactful projects.
         </p>
 
         {/* Skills */}
@@ -66,23 +58,26 @@ const resume = () => {
           <p className='py-2'>
             <span className='font-bold'>Technical Skills</span>
             <span className='px-2'>|</span>Front-End Web Developer
-            <span className='px-2'>|</span> HTML
+            <span className='px-2'>|</span>Back-End Developer
+            <span className='px-2'>|</span>HTML
             <span className='px-2'>|</span>CSS
             <span className='px-2'>|</span>Javascript
             <span className='px-2'>|</span>React
             <span className='px-2'>|</span>Next JS
-            <span className='px-2'>|</span>SQL
-            <span className='px-2'>|</span>NoSQL
+            <span className='px-2'>|</span>MYSQL
+            <span className='px-2'>|</span>MongoDB
             <span className='px-2'>|</span>Redux
+            <span className='px-2'>|</span>Nodejs
             <span className='px-2'>|</span>Tailwind
-            <span className='px-2'>|</span> Firebase
             <span className='px-2'>|</span> RESTAPI
+            <span className='px-2'>|</span> sequelize
+            <span className='px-2'>|</span> terraform
           </p>
-          <p className='py-2'>
+          {/* <p className='py-2'>
             <span className='font-bold'>Amazon Web Services</span>
             <span className='px-2'>|</span>Amazon Web Services Cloud
             Practitioner
-          </p>
+          </p> */}
         </div>
 
         <h5 className='text-center underline text-[18px] py-4'>
@@ -92,93 +87,26 @@ const resume = () => {
         <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
-            INFINITE TECH
+            Toobler Technologies private limited
             </span>
-            <span className='px-2'>|</span>Dallas, TX
+            <span className='px-2'>kochi,india</span>
           </p>
-          <p className='py-1 italic'>Front End Web Developer & Web Master (2013 - Current)</p>
-          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+          <p className='py-1 italic'>Full-stack developer (2022-March - Current)</p>
+          <ul className='list-disc list-outside px-7 py-1 leading-relaxed text-justify'>
             <li>
-              Ensured comprehensive mobile responsive UI layouts with
-              understanding of HTML, CSS, and JavaScript.
+            Full Stack Development: Proficient in both front-end and back-end development, capable of building complete web applications from start to finish.
             </li>
             <li>
-              Troubleshoot issues and concerns, configure operation and analytic
-              plugins, and design changes as needed.
+            Front-end Expertise: Skilled in creating responsive user interfaces using HTML, CSS, and JavaScript frameworks like React, ensuring intuitive and engaging user experiences.
             </li>
             <li>
-              Worked directly with a diverse client base to understand and
-              implement multiple technologies and programs.
+            Back-end Proficiency: Experienced in developing server-side logic, RESTful APIs, and database integration using technologies such as Node.js, Express.js, and databases like MongoDB or MySQL.
             </li>
             <li>
-              Platform migration managing DNS servers as well as MX records and
-              ensuring a smooth migration process.
-            </li>
-          </ul>
-        </div>
-
-
-        {/* Personal Experience */}
-        <div className='py-6'>
-          <p className='italic'>
-            <span className='font-bold italic'>
-              Teaching & Mentoring Web Development
-            </span>
-            <span className='px-2'>|</span>Dallas, TX
-          </p>
-          <p className='py-1 italic'>Code Commerce - Youtube Channel (2021 - Current)</p>
-          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
-            <li>
-              In 2021 I started “Code Commerce”, a YouTube channel focused on
-              sharing what I’m learning in web development, specifically
-              front-end development.
+            Database Management: Knowledgeable in designing and optimizing database schemas, performing migrations, and implementing data models for efficient data storage and retrieval.
             </li>
             <li>
-              Private 1 on 1 Zoom coaching calls related to web development.
-              More specifically debugging, teaching basic web development
-              concepts and code reviews.
-            </li>
-          </ul>
-        </div>
-
-        {/*  */}
-        <h5 className='text-center underline text-[18px] py-4'>
-          Other Professional Experience
-        </h5>
-      
-        {/* Experience */}
-        <div className='py-6'>
-          <p className='italic'>
-            <span className='font-bold'>CITY OF SHERMAN, TX</span>
-            <span className='px-2'>|</span>Sherman, TX
-          </p>
-          <p className='py-1 italic'>Paramedic / Firefighter (2010 – 2019)</p>
-          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
-            <li>
-              Ensured proper implementation of firefighting techniques and
-              practices including controlling and extinguishing fires, operating
-              hose lines, and fire ground operations, ventilation, and search
-              and rescue.
-            </li>
-            <li>
-              Oversaw comprehensive understanding, operation, and maintenance of
-              fire engines, ladder trucks, technical rescue apparatus, and
-              response trailers.
-            </li>
-            <li>
-              Performed ALS techniques as needed within emergency situations
-              including the use of an esophageal or dual lumen airway device and
-              oral intubation using laryngoscopy.
-            </li>
-            <li>
-              Collaborated with a talented and high performing team of
-              firefighters in high pressure and stressful situations as needed.
-            </li>
-            <li>
-              Utilized proven and demonstrated knowledge of multiple
-              certifications including Pediatric Advanced Life Support,
-              Prehospital Trauma Life Support, and Advanced Cardiac Life
-              Support, among others.
+            Problem Solving and Collaboration: Strong problem-solving abilities, coupled with the ability to collaborate effectively in cross-functional teams, ensuring smooth communication and successful project delivery.
             </li>
           </ul>
         </div>

@@ -1,9 +1,10 @@
 import Head from 'next/head'
 import Main from '../components/Main'
 import Navbar from '../components/Navbar'
-import About from '../components/About'
+import About from '../components/about'
 import Skills from '../components/Skills'
 import Projects from '../components/Projects'
+import Contact from './contact'
 
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <About />
       <Skills />
       <Projects />
+      <Contact />
       
     </div>
   )
