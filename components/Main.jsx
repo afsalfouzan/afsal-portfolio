@@ -5,6 +5,7 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import Image from 'next/image';
 import Picture from '../public/assets/picture.png'
+// import '../styles/style-main.css'
 
 const Main = () => {
   return (
@@ -58,9 +59,10 @@ const Main = () => {
             </div>
           </div>
         </div>
-        <div className='h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center hover:scale-105 ease-in duration-300'>
-          <Image src={Picture} alt='/' width='600' height='900' />
+        <div className="h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center hover:scale-105 ease-in duration-300 animate-slide-left">
+          <Image src={Picture} alt="/" width="600" height="900" />
         </div>
+
       </div>
     </div>
   );
