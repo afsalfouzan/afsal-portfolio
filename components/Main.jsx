@@ -11,7 +11,6 @@ const Main = () => {
   return (
     <div id='home' className='w-full md:h-screen text-center'>
       <div className='max-w-[1240px] m-auto md:flex justify-between items-center pt-32 p-4'>
-
         <div className=' w-full h-full mx-auto p-2 flex justify-center'>
           <div>
             <p className='uppercase text-sm tracking-widest text-gray-600'>
